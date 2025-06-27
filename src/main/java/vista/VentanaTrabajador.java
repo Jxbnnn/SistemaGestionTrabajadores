@@ -28,4 +28,12 @@ public class VentanaTrabajador {
 
         scanner.close();
     }
+    private static void mostrarDatosTrabajador(Trabajador trabajador) {
+        System.out.println("--- Datos del Trabajador ---");
+        System.out.println("Nombre: " + trabajador.getNombre());
+        System.out.println("Apellido: " + trabajador.getApellido());
+        System.out.println("RUT: " + trabajador.getRut());
+        System.out.println("Isapre: " + trabajador.getIsapre());
+        System.out.println("AFP: " + trabajador.getAfp());
+    }
 }
