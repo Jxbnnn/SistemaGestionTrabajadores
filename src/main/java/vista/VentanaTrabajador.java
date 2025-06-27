@@ -23,5 +23,9 @@ public class VentanaTrabajador {
         System.out.print("AFP: ");
         String afp = scanner.nextLine();
 
+        Trabajador trabajador = new Trabajador(nombre, apellido, rut, isapre, afp);
+        mostrarDatosTrabajador(trabajador);
+
+        scanner.close();
     }
 }
